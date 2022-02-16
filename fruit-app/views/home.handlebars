@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" media="screen,projection" />
+   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+
+</head>
+
+<body>
+   <div class="container">
+      
+      <div class="row">
+         <h1>Teachable Fruits</h1>
+      <h3>Welcome back: </h3>
+      <div>
+         <div class="fileUpload hidden controls">
+            <div>
+               <input type="file" id="fileinput" accept="image/*">
+            </div>
+            <canvas id=checkUploadedFile"canvas"></canvas>
+            <!-- <button type="button" class="checkUploadedFile" >Check!</button> -->
+         </div>
+
+         <div class="controls">
+            <div id="webcam-container"></div>
+            <div id="label-container"></div>
+
+            <div class="controls">
+               <button type="button" class="start" onclick="init()">Start</button>
+               <!-- <button type="button" class="hidden stop" onclick="stop()">Stop</button> -->
+               <button type="button" class="checkUploadedFile">Check!</button>
+            </div>
+         </div>
+         <br>
+
+         <div class="controls">
+            <form action="/api/create-customer" method="post">
+               <label for="username">Enter your name</label><br>
+               <input type="text" name="username">
+               <input type="submit" value="Submit">
+            </form>
+            
+         </div>
+
+      </div>
+
+      </div>
+
+   </div>
+
+
+   <script src="/js/jquery.js"></script>
+   <script src="/js/bootstrap.js"></script>
+
+  
+
+</body>
+
+</html>

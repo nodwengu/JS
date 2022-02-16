@@ -1,0 +1,107 @@
+body {
+	font-family: arial;
+	/* font-size: 150%; */
+	background: rgb(66, 175, 170);
+}
+
+.container {
+	/* width: 50%; */
+	margin: auto;
+	background-color: white;
+	padding: 1em;
+}
+
+.large {
+	font-size: 200%;
+}
+
+.text {
+	padding : 0.75em;
+	margin-bottom: 0.5em;
+	font-size: 105%;
+}
+
+.btn {
+	display: "inline-block";
+	padding : 0.5em;
+	margin: 0.5em;
+	border-radius: 0.25em;
+}
+
+table {
+	/* margin: 25px auto; */
+	border-collapse: collapse;
+	  border: 1px solid #eee;
+	  width: 100%;
+}
+
+th {
+	background-color: light-blue;
+}
+
+thead {
+	background-color: light-blue;
+}
+
+tbody tr:nth-child(odd) {
+	background: #eee;
+}
+
+td, tr {
+	padding : 1em;
+}
+
+label {
+	display: inline-block;
+	width: 8em;
+}
+
+.chocolate {
+
+	font-size: 200%;
+	margin: auto 0em;
+	padding-bottom: 0.25em;
+	/* border: px salmon; */
+	/* background-color: brown; */
+	color : rgb(32, 40, 158);
+	border-radius: 0.25em;
+	/* width: 10em; */
+
+}
+
+.correct {
+	color : rgb(32, 189, 32);
+	font-size: 300%;
+
+}
+
+.controls {
+	padding : 0.25em;
+	/* border: 1px solid #eee; */
+	border-radius: 0.5em;
+}
+
+.controls > button[type='button'] {
+	margin: 0.5em;
+	padding: 0.5em;
+	width: 7em;
+	color: whitesmoke;
+	background-color: #0099ff;
+	border-radius: 0.25em;
+}
+
+.hidden {
+	display: none;
+}
+
+#webcam-container > canvas {
+	border: 1px solid #000;
+	border-radius: 0.25em;
+	margin : auto;
+}
+
+.mt-1 {
+	margin-top: 1em;
+}
+
+
